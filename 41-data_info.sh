@@ -13,4 +13,6 @@ echo "# Step1: add content to \"local/app/LLaMA-Factory/data/dataset_info.json\"
   },
 "
 
-echo "# Step2: execute command 42-1GPU_sft_lora_CUDA_srun.sh"
+echo "# Step2: Change HF_TOKEN in 42-1GPU_sft_lora_CUDA.sh"
+
+echo "# Step3: execute command 42-1GPU_sft_lora_CUDA_srun.sh"
