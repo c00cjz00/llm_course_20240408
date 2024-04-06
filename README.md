@@ -10,7 +10,7 @@
 ```
 
 ## Training
-#### Remember to change HF_TOKEN in *.sh
+### <font color="#F00">Remember to change HF_TOKEN in *.sh</font>
 - 1GPU_sft_lora
 ```
 # slurm
