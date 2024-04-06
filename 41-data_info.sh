@@ -1,6 +1,6 @@
 cp data.json local/app/LLaMA-Factory/data/demo.json
 file_sha1=$(sha1sum data.json)
-echo "# Step1: add content to "local/app/LLaMA-Factory/data/dataset_info.json" 
+echo "# Step1: add content to \"local/app/LLaMA-Factory/data/dataset_info.json\" 
 
   \"demo\": {
     \"file_name\": \"demo.json\",
@@ -12,3 +12,5 @@ echo "# Step1: add content to "local/app/LLaMA-Factory/data/dataset_info.json"
     }
   },
 "
+
+echo "# Step2: execute command 42-1GPU_sft_lora_CUDA_srun.sh"
